@@ -1,0 +1,85 @@
+body{
+    background-color: #a2bbcf;
+}
+.buttons-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    /* padding: 15px; */
+    /* text-align: center; */
+}
+.btn{
+    padding: 20px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    font-weight: bolder;
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #a2bbcf;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    color: #a2bbcf;
+}
+input:focus{
+    outline: none;
+}
+h1{
+    color: antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.large{
+    background-color: #142f44 ;
+    width: min-content;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+.bS{
+    padding: 20px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: #a2bbcf;
+}
+button{
+    background-color: aliceblue;
+}
+.equals{
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    color: #a2bbcf;
+}
+.equals2{
+    grid-row: span 2;
+    background-color: #205b7a ;
+    border-radius: 5px;
+    padding-top: 2rem;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+}
+.responsive{
+    display: none;
+}
+@media screen and (min-width: 600px) {
+    .large{
+        display: none;
+    }
+    .responsive{
+        display: block;
+    }
+    center{
+        display: none;
+    }
+}
