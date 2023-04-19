@@ -72,7 +72,7 @@ footer{
 .responsive{
     display: none;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 800px) {
     .large{
         display: none;
     }
